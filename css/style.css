@@ -13,9 +13,14 @@ header {
     background-color: white;
 }
 /*utils*/
-.container {
-    max-width: 1200px;
-    margin: o auto;
+.container-big {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: pink;
+}
+.container-small {
+    max-width: 800px;
+    margin: 0 auto;
 }
 .flex {
     display: flex;
@@ -37,7 +42,7 @@ header {
     color: black;
 }
 .navbar > * {
-    padding: 10px 0;
+    /*padding: 10px 0;*/
     flex-basis: 20%;
     background-color: goldenrod;
 }
@@ -60,6 +65,26 @@ header {
 .navbar-right {
     display: flex; 
 }
+/*Jumbotron*/
+.jumbotron{
+    height: 400px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+.jumbotron .content {
+    width: 50%;
+    background-color: blueviolet;
+
+}
+
+
+
+
+
+
+
+
 .pd-5-10{
     padding: 5px 10px;
 }
