@@ -11,6 +11,10 @@ body {
 header {
     background-color: white;
 }
+footer{
+    height: 300px;
+    margin-top: 20px;
+}
 /*utils*/
 .container-big {
     max-width: 1200px;
@@ -86,20 +90,29 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-
+    margin-bottom: 30px;
+}
+.riga {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
 }
 .col {
-    flex-basis:calc(100% / 3 - 40px);
+    flex-basis:calc( 100% / 3 - 40px);
     border: 2px solid red;
-
 }
-.full-col {
+
+.full-col{
     flex-basis: 100%;
-
-}
+} 
 .card {
-    height: 200px;
+    min-height: 300px;
     background-color: yellow;
+}
+.cuadro {
+    flex-basis: calc( 100% / 3 );
+    height: 300px;
+    background-color: forestgreen;
 }
 
 .left-side {
@@ -112,22 +125,44 @@ header {
     background-color: orchid;
 
 }
+.title-operations {
+    min-height: 30px;
+    background-color:yellow;
+    margin: 40px 0;
+}
+.faq {
+    height: 300px;
+    background-color: burlywood;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 
 
 
-
+.bg-pink {
+    background-color: palevioletred;
+}
 .bg-blue {
     background-color: lightblue;
 }
 .bg-color-white {
     background-color: white;
 }
+.hg-50 {
+    height: 50px;
+}
+.hg-200 {
+    min-height: 200px;
+}
 .hg-300 {
     min-height: 300px;
 }
 .hg-600 {
     min-height: 600px;
+}
+.fl-20 {
+    flex-basis: 20%;
 }
 .fl-30 {
     flex-basis: 30%;
