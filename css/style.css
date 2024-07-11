@@ -7,19 +7,18 @@
 /*generics*/
 body {
     font-family: Open Sans;
-    background-color: coral;
 }
 header {
     background-color: white;
 }
 /*utils*/
 .container-big {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: pink;
 }
 .container-small {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .flex {
@@ -68,13 +67,39 @@ header {
 /*Jumbotron*/
 .jumbotron{
     height: 400px;
-    background-color: lightblue;
     display: flex;
     justify-content: center;
 }
 .jumbotron .content {
     width: 50%;
     background-color: blueviolet;
+}
+/*Main*/
+.choose-plan {
+    min-height: 40px;
+    background-color: yellow;
+    margin: 40px 0;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.col {
+    flex-basis:calc(100% / 3 - 40px);
+    border: 2px solid red;
+
+}
+.full-col {
+    flex-basis: 100%;
+
+}
+.card {
+    height: 200px;
+    background-color: yellow;
 
 }
 
@@ -83,8 +108,18 @@ header {
 
 
 
-
-
+.bg-blue {
+    background-color: lightblue;
+}
+.bg-color-white {
+    background-color: white;
+}
+.hg-300{
+    min-height: 300px;
+}
+.hg-600{
+    min-height: 600px;
+}
 .pd-5-10{
     padding: 5px 10px;
 }
