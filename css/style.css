@@ -7,9 +7,25 @@
 /*generics*/
 body {
     font-family: Open Sans;
+    padding-top: 80px;
 }
 header {
-    background-color: white;
+   
+}
+nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+ul {
+    list-style-type: none;
+
 }
 footer{
     height: 300px;
@@ -34,39 +50,28 @@ footer{
 /*Header*/
 .navbar {
     height: 80px;
+    box-shadow: 0 1px 3px whitesmoke;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbar ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 30px;
 }
-/* evitiamo che vadano a capo i link*/
 .navbar a {
-    white-space: nowrap;
     text-decoration: none;
     color: black;
 }
-.navbar > * {
-    /*padding: 10px 0;*/
-    flex-basis: 20%;
-    background-color: goldenrod;
-}
-.navbar-menu,
-.navbar-actions,
-.navbar-assistance {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-.navbar-assistance {
-    text-align: right;
-}
-.navbar-actions {
-    text-align: right;
-}
 .navbar-left {
-    display: flex;
+    
 }
 .navbar-right {
-    display: flex; 
+
 }
 /*Jumbotron*/
 .jumbotron{
@@ -163,6 +168,10 @@ footer{
 }
 .fl-20 {
     flex-basis: 20%;
+}
+.fl-25 {
+    flex-basis: 25%;
+    border: 1px solid black;
 }
 .fl-30 {
     flex-basis: 30%;
