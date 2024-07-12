@@ -10,7 +10,7 @@ body {
     padding-top: 80px;
 }
 
-nav {
+header nav {
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -227,7 +227,17 @@ main a {
     justify-content: flex-end;
     /*ricorda di centrare testo e freccia dopo*/
 }
-
+/*footer*/
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+footer li {
+    padding-bottom: 10px;
+    font-size: small;
+}
 
 
 /** caratteristiche e misure**/
