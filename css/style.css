@@ -102,6 +102,18 @@ footer{
 .row.full-col > * {
     flex-grow: 1;
 }
+.row.business {
+    gap: 20px;
+}
+.row.business > .col {
+    flex-basis: calc(100% / 3 - 40px / 3);
+    min-height: 80px;
+    border: 1px solid black;
+}
+.row.business > * {
+    flex-grow: 1;
+
+}
 /*Header*/
 .navbar {
     height: 80px;
