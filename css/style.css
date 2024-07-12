@@ -40,7 +40,7 @@ h3 {
     margin: 30px 0;
 }
 section {
-    padding: 80px;
+    padding: 50px;
 }
 footer{
     height: 300px;
@@ -72,6 +72,12 @@ footer{
 .btn.btn-primary {
     color: white;
     background-color: #0061ff;
+}
+.btn.btn-secondary {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 20px;
 }
 .row {
     display: flex;
@@ -185,22 +191,20 @@ main a {
 .fa-solid.fa-check {
     color: blue;
 }
-
-
-
-
-
-
-.left-side {
-    height: 300px;
-    background-color: orange;
-
+/*section partner*/
+.partner-right {
+    flex-basis: 40%;
 }
-.right-side {
-    height: 200px;
-    background-color: orchid;
-
+.partner-left {
+    flex-basis: 60%;
+    margin-right: 50px;
 }
+
+
+
+
+
+
 .title-operations {
     min-height: 30px;
     background-color:yellow;
@@ -216,32 +220,12 @@ main a {
 
 
 /** caratteristiche e misure**/
-.bg-pink {
-    background-color: palevioletred;
-}
-.bg-blue {
-    background-color: lightblue;
-}
-.bg-color-white {
-    background-color: white;
-}
-
 .mb-30 {
     margin-bottom: 30px;
 }
 
-.hg-50 {
-    height: 50px;
-}
-.hg-200 {
-    min-height: 200px;
-}
-.hg-300 {
-    min-height: 300px;
-}
-.hg-600 {
-    min-height: 600px;
-}
+
+
 .fl-20 {
     flex-basis: 20%;
 }
@@ -252,12 +236,7 @@ main a {
 .fl-30 {
     flex-basis: 30%;
 }
-.fl-40 {
-    flex-basis: 40%;
-}
-.fl-60 {
-    flex-basis: 60%;
-}
+
 .fl-70 {
     flex-basis: 70%;
 }
