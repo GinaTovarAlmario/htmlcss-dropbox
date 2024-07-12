@@ -9,9 +9,6 @@ body {
     font-family: Open Sans;
     padding-top: 80px;
 }
-header {
-   
-}
 nav {
     height: 100%;
     display: flex;
@@ -25,7 +22,6 @@ img {
 }
 ul {
     list-style-type: none;
-
 }
 footer{
     height: 300px;
@@ -67,11 +63,15 @@ footer{
     text-decoration: none;
     color: black;
 }
-.navbar-left {
-    
+.btn {
+    padding: 10px 15px;
 }
-.navbar-right {
-
+.btn.btn-small {
+    padding: 5px 10px;
+}
+.btn.btn-primary {
+    color: white;
+    background-color: #0061ff;
 }
 /*Jumbotron*/
 .jumbotron{
@@ -144,7 +144,7 @@ footer{
 
 
 
-
+/** caratteristiche e misure**/
 .bg-pink {
     background-color: palevioletred;
 }
