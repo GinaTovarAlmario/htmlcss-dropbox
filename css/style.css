@@ -90,7 +90,7 @@ footer{
 .row.pricing > .col  {
     flex-basis: calc(100% / 3 - 60px / 3);
     min-height: 80px;
-    border: 2px solid black;
+    border: 1px solid black;
     text-align: center;
 }
 .row.full-col > * {
@@ -171,8 +171,11 @@ footer{
 main li {
     margin-bottom: 30px;
 }
+main a {
+    color: blue;
+}
 .bd-bottom {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 .underscore {
     height: 25px;
