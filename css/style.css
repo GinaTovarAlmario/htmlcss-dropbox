@@ -177,7 +177,6 @@ footer{
 }
 .price {
     font-weight: 700;
-    margin-bottom: 20px;
 }
 .monthly {
     color: grey;
@@ -215,6 +214,18 @@ main a {
 .partner-left {
     flex-basis: 60%;
     margin-right: 50px;
+}
+/*section companies*/
+.companies-left {
+    min-height: 300px;
+
+}
+.companies-center {
+    min-height: 300px;
+
+}
+.companies-right {
+    min-height: 300px;
 }
 
 /*section FAQ*/
@@ -265,3 +276,5 @@ footer li {
 .pd-5-10 {
     padding: 5px 10px;
 }
+
+
