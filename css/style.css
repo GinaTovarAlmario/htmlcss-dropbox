@@ -32,7 +32,7 @@ h1 {
     margin-bottom: 40px;
 }
 h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 60px;
 }
 h3 {
@@ -43,7 +43,7 @@ section {
     padding: 50px;
 }
 footer{
-    min-height: 300px;
+    min-height: 400px;
     margin-top: 20px;
     color: white;
     background-color: black;
@@ -198,9 +198,12 @@ main a {
     border-bottom: 1px solid black;
 }
 .underscore {
-   margin-top: 50px;
-   padding-top: 50px;
-   border-top: 2px dashed black;
+
+   height:20px;
+   width:50px;
+   background-color:white;
+   border-top: 1px solid black;
+   margin: 40px 40px 50px 40px;
 }
 .fa-solid.fa-check {
     color: blue;
@@ -241,13 +244,17 @@ footer li {
 .footer-bottom {
     color: gray;
     font-size: 12px;
-    margin-top: 50px;
-    border-top: 1px solid gray;
-    padding-top: 40px;
-    
+    margin-bottom: 30px;
 }
 .fa-solid.fa-sort-up {
     /*ricordati di allineare questa al testo*/
+}
+.underscore-footer {
+    height:20px;
+    width:100px;
+    border-top: 3px solid grey;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 /** caratteristiche e misure**/
