@@ -151,8 +151,8 @@ footer{
 }
 
 /*Main*/
-#choose-price {
-    min-height: 40px;
+#choice {
+    min-height: 400px;
     margin: 40px 0;
 }
 .choose-available {
