@@ -50,11 +50,11 @@ footer{
 }
 /*utils*/
 .container-big {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 .container-small {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 .flex {
@@ -177,6 +177,10 @@ footer{
     margin-right: 20px;
     margin-bottom: 50px;
 }
+.pricing .btn.btn-primary {
+    display: block;
+    text-align: center;
+}
 .aligned-with-mg {
     text-align: left;
     margin-left: 40px;
@@ -282,6 +286,9 @@ footer li {
 /** caratteristiche e misure**/
 .mb-30 {
     margin-bottom: 30px;
+}
+.mt-20 {
+    margin-top: 20px;
 }
 .mr-10 {
     margin-right: 10px;
