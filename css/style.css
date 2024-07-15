@@ -267,10 +267,14 @@ main a {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 15px solid transparent;
 }
 .small-box img {
     width: 60%;
     filter: invert(1);
+}
+.small-box:hover {
+    border: 15px solid rgba(255, 255, 255, 0.5);
 }
 .big-box {
     padding: 40px 10px;
