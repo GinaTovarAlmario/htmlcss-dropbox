@@ -223,16 +223,19 @@ main a {
 .inner-info {
     display: flex;
     align-items: baseline;
+    gap: 10px;
 
 }
 .left-info {
     flex-basis: 70%;
     min-height: 200px;
+    text-align: left;
 
 }
 .right-info {
     flex-basis: 30%;
     min-height: 200px;
+    margin-right: 30px;
 
 }
 /*section partner*/
