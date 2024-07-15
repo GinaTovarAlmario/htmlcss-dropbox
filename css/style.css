@@ -302,15 +302,9 @@ main a {
     padding-bottom: 40px;
     border-bottom: 2px solid black;
 }
-/*
-.fa-solid.fa-chevron-down{
-    display: flex;
-    justify-content: flex-end;
-}*/
 .faq-list li {
     display: flex;
     gap: 440px;
-
 }
 /*footer*/
 .footer-nav {
