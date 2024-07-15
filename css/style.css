@@ -27,13 +27,14 @@ ul {
 
 h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 45px;
     font-weight: 800;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 h2 {
     font-size: 40px;
     margin-bottom: 60px;
+    margin-top: 40px;
 }
 h3 {
     font-size: 20px;
@@ -231,14 +232,12 @@ main a {
 /*section companies*/
 .box-companies {
     display: flex;
-    background-color: grey;
 }
 .box-companies .box {
     width: calc(100vw / 3);
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
-    border: 2px dashed pink;
 }
 .box .small-box {
     width: 50%;
@@ -250,6 +249,40 @@ main a {
 .small-box img {
     width: 60%;
     filter: invert(1);
+}
+.join {
+    min-height: 200px;
+    background-color: #b4d0e7;
+}
+.join > h2 {
+    margin-top: 0;
+}
+.bg-box-center {
+    background-color: #f5f5f5;
+}
+.bg-left-top-first {
+    background-color: #a2d39b;
+}
+.bg-left-top-second {
+    background-color: #61082b;
+}
+.bg-left-bottom-first {
+    background-color: #0093ce;
+}
+.bg-left-bottom-second {
+    background-color: #ff1c1c;
+}
+.bg-right-top-first {
+    background-color:#d5001f;
+}
+.bg-right-top-second {
+    background-color: #b4d0e7;
+}
+.bg-right-bottom-first {
+    background-color: #0d2481; 
+}
+.bg-right-bottom-second {
+    background-color: #ffd830;
 }
 /*section FAQ*/
 #faq {
