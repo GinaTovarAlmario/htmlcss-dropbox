@@ -183,7 +183,7 @@ header nav {
     display: block;
     text-align: center;
 }
-.aligned-with-mg {
+.spacing > * {
     text-align: left;
     margin-left: 40px;
     margin-right: 40px;
@@ -202,7 +202,7 @@ header nav {
 }
 .icons-list span {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     margin-bottom: 10px;
     align-items: baseline;  
 }
@@ -210,10 +210,9 @@ main a {
     color: blue;
 }
 
-/*
 .bd-bottom {
     border-bottom: 1px solid black;
-}*/
+}
 .underscore {
    height:20px;
    width:50px;
