@@ -13,13 +13,6 @@ body {
     font-family: 'Open sans', sans-serif;
     padding-top: 80px;
 }
-header nav {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
 img {
     max-width: 100%;
     display: block;
@@ -119,6 +112,13 @@ footer{
     margin-bottom: 80px;
 }
 /*Header*/
+header nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 .navbar {
     height: 80px;
     box-shadow: 0 1px 3px lightgray;
