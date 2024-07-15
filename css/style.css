@@ -45,6 +45,8 @@ footer{
     margin-top: 80px;
     color: white;
     background-color: black;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 /*utils*/
 .container-big {
@@ -57,9 +59,6 @@ footer{
 }
 .flex {
     display: flex;
-}
-.debug .border {
-    border: 1px dashed;
 }
 .btn {
     padding: 10px 15px;
@@ -139,7 +138,7 @@ header nav {
     align-items: center;
     gap: 30px;
 }
-.navbar a {
+.navbar a{
     text-decoration: none;
     color: black;
 }
@@ -361,6 +360,10 @@ main a {
 footer li {
     padding-bottom: 10px;
     font-size: small;
+}
+footer a {
+    text-decoration: none;
+    color: white;
 }
 .footer-bottom {
     color: gray;
