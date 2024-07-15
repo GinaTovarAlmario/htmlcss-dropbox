@@ -270,7 +270,7 @@ main a {
     border: 15px solid transparent;
 }
 .small-box img {
-    width: 60%;
+    width: calc(60% + 30px);
     filter: invert(1);
 }
 .small-box:hover {
