@@ -341,13 +341,15 @@ main a {
 #faq {
     min-height: 300px;
 }
-.underline-faq {
-    padding-bottom: 40px;
-    border-bottom: 2px solid black;
+.border-top {
+    border-top: 1px solid black;
 }
 .faq-list li {
     display: flex;
     gap: 440px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
 }
 /*footer*/
 .footer-nav {
