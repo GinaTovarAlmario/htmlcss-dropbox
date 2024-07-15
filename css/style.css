@@ -272,7 +272,6 @@ main a {
 .inner-join {
     display: flex;
     align-items: baseline;
-
 }
 .join-left {
     flex-basis: 50%;
