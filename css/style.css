@@ -215,6 +215,26 @@ main a {
 .fa-solid.fa-check {
     color: blue;
 }
+.info {
+    display: flex;
+    align-items: center;
+
+}
+.inner-info {
+    display: flex;
+    align-items: baseline;
+
+}
+.left-info {
+    flex-basis: 70%;
+    min-height: 200px;
+
+}
+.right-info {
+    flex-basis: 30%;
+    min-height: 200px;
+
+}
 /*section partner*/
 .partner-right {
     flex-basis: 40%;
