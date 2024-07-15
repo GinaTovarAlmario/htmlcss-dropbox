@@ -250,6 +250,24 @@ main a {
     width: 60%;
     filter: invert(1);
 }
+.big-box {
+    padding: 40px 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.big-box img {
+    width: 50%;
+}
+.underscore-box {
+    height: 20px;
+    width: 110px;
+    background-color:white;
+    border-top: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
 .join {
     min-height: 200px;
     background-color: #b4d0e7;
@@ -288,7 +306,7 @@ main a {
 #faq {
     min-height: 300px;
 }
-.underline {
+.underline-faq {
     padding-bottom: 40px;
     border-bottom: 2px solid black;
 }
@@ -333,6 +351,9 @@ footer li {
 }
 .mr-10 {
     margin-right: 10px;
+}
+.pd-10-top {
+    padding-top: 10px;
 }
 
 .pd-5-10 {
