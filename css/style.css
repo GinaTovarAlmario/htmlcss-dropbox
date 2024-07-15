@@ -1,3 +1,7 @@
+/*Custom Properties*/
+:root {
+    --primary-color:#0061ff;
+}
 /*reset*/
 * {
     margin: 0;
@@ -6,7 +10,7 @@
 }
 /*generics*/
 body {
-    font-family: Open Sans;
+    font-family: 'Open sans', sans-serif;
     padding-top: 80px;
 }
 header nav {
